@@ -135,7 +135,7 @@
     </div>
 
     <!--  -->
-    <div class="banner mt-16 container">
+    <div class="banner mt-16 container w-viewport-80 mx-auto">
       <div class="flex justify-between gap-[30px]">
         <div class="flex justify-between bg-gray-100 w-[690px] h-[430px]">
           <div class="mr-8 mt-16 ml-16">
@@ -169,7 +169,7 @@
     </div>
 
     <!--  -->
-    <div class="mx-auto mt-8">
+    <div class="mx-auto mt-8 w-viewport-80 text-center mx-auto">
       <div class="mb-8 text-center">
         <h2 class="text-2xl font-bold text-gray-800 mb-2">Sản phẩm mới</h2>
         <div class="flex justify-center items-center mb-2 gap-[15px]">
@@ -303,7 +303,7 @@
     </div>
 
     <!--  -->
-    <div class="bg-beige py-10">
+    <div class="bg-beige pt-10 w-viewport-80 text-center mx-auto">
       <div class="container mx-auto">
         <div class="mb-6 text-center">
           <h2 class="text-2xl font-bold text-dark">Ưu đãi trong ngày</h2>
@@ -432,7 +432,7 @@
     </div>
 
     <!--  -->
-    <div class="flex gap-[30px] justify-center mt-[80px]">
+    <div class="flex gap-[30px] justify-center mt-[80px] w-viewport-80 mx-auto">
       <div
         class="relative w-[450px] h-[323px] bg-light-bg flex flex-row-reverse"
       >
@@ -473,7 +473,7 @@
     </div>
 
     <!--  -->
-    <div class="mx-auto mt-8">
+    <div class="mx-auto mt-8 w-viewport-80 text-center">
       <div class="mb-8 text-center">
         <h2 class="text-2xl font-bold text-gray-800 mb-2">
           Sản phẩm bán chạy nhất
@@ -578,7 +578,7 @@
     </div>
 
     <!--  -->
-    <div class="bg-off-white py-[50px]">
+    <div class="bg-off-white pt-[50px] w-viewport-80 text-center mx-auto">
       <div class="container mx-auto px-4">
         <div
           class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 text-center text-white"
@@ -654,13 +654,189 @@
     </div>
 
     <!--  -->
+    <div class="flex w-full py-[30px] gap-[30px] overflow-x-auto justify-start">
+      <img
+        src="../public/insta11.png"
+        alt=""
+        class="w-[310px] h-[305px] flex-shrink-0"
+      />
+      <img
+        src="../public/insta21.png"
+        alt=""
+        class="w-[310px] h-[305px] flex-shrink-0"
+      />
+      <img
+        src="../public/insta31.png"
+        alt=""
+        class="w-[310px] h-[305px] flex-shrink-0"
+      />
+      <img
+        src="../public/insta41.png"
+        alt=""
+        class="w-[310px] h-[305px] flex-shrink-0"
+      />
+      <img
+        src="../public/insta51.png"
+        alt=""
+        class="w-[310px] h-[305px] flex-shrink-0"
+      />
+      <img
+        src="../public/insta71.png"
+        alt=""
+        class="w-[310px] h-[305px] flex-shrink-0"
+      />
+    </div>
+
+    <div
+      class="flex flex-col items-center justify-center py-16 px-4 bg-[#F2F2F2] text-center"
+    >
+      <div
+        class="text-[#B28A6B] text-base md:text-lg font-bold uppercase tracking-widest mb-2"
+      >
+        Thư thông báo
+      </div>
+      <div
+        class="text-[#524B46] text-3xl md:text-5xl font-bold mb-4 leading-tight"
+      >
+        Nhận giảm giá 30%
+      </div>
+      <div class="text-[#888888] text-sm md:text-base mb-8 max-w-md">
+        30% off trên toàn bộ đơn hàng của bạn khi nhập mã khuyến mãi.
+      </div>
+      <div
+        class="flex flex-col md:flex-row items-center w-full max-w-lg px-4 md:px-0"
+      >
+        <input
+          type="email"
+          placeholder="Nhập Email của bạn..."
+          class="w-full md:flex-grow p-3 border border-[#E0E0E0] focus:outline-none focus:ring-2 focus:ring-[#B28A6B] mb-4 md:mb-0 text-[#524B46] placeholder-[#AAAAAA]"
+        />
+        <button
+          class="w-full md:w-auto px-8 py-3 bg-[#B28A6B] text-white font-bold hover:bg-[#A37B5C] transition-colors duration-300 whitespace-nowrap"
+        >
+          Đăng ký
+        </button>
+      </div>
+    </div>
+
     <div>
-      <img src="../public/insta11.png" alt="" />
-      <img src="../public/insta21.png" alt="" />
-      <img src="../public/insta31.png" alt="" />
-      <img src="../public/insta41.png" alt="" />
-      <img src="../public/insta51.png" alt="" />
-      <img src="../public/insta71.png" alt="" />
+      <div
+        class="flex flex-col md:flex-row justify-around items-start md:items-start p-8 bg-white text-[#524B46]"
+      >
+        <div class="mb-8 md:mb-0">
+          <div class="font-bold text-lg mb-4 text-[#524B46] relative">
+            <span
+              class="absolute -left-3 top-1/2 -translate-y-1/2 w-1.5 h-1.5 bg-[#B28A6B] rounded-full"
+            ></span>
+            Khách hàng
+          </div>
+          <ul class="space-y-2">
+            <li>
+              <a href="#" class="text-sm hover:text-[#B28A6B]"
+                >Vận chuyển & Đổi/trả hàng</a
+              >
+            </li>
+            <li>
+              <a href="#" class="text-sm hover:text-[#B28A6B]"
+                >Mua sắm an toàn</a
+              >
+            </li>
+            <li>
+              <a href="#" class="text-sm hover:text-[#B28A6B]"
+                >Trạng thái đơn hàng</a
+              >
+            </li>
+            <li>
+              <a href="#" class="text-sm hover:text-[#B28A6B]"
+                >Vận chuyển quốc tế</a
+              >
+            </li>
+          </ul>
+        </div>
+
+        <div
+          class="flex flex-col items-center text-center px-4 md:px-8 mb-8 md:mb-0"
+        >
+          <div class="mb-4">
+            <img src="../public/icon-b.png" alt="BCO Logo" class="h-16" />
+          </div>
+          <div class="text-sm leading-relaxed mb-6 max-w-xs">
+            Khám phá phong cách mới tại cửa hàng Nơi mua sắm độc đáo và thú vị!
+          </div>
+          <div class="flex space-x-3">
+            <div
+              class="w-[38px] h-[38px] transform rotate-45 bg-[#212121] flex justify-center items-center rounded-lg shadow-md hover:bg-[#B28A6B] transition-colors duration-300"
+            >
+              <img
+                src="../public/icons/facebook.svg"
+                alt="Facebook"
+                class="transform -rotate-45 w-5 h-5"
+              />
+            </div>
+            <div
+              class="w-[38px] h-[38px] transform rotate-45 bg-[#212121] flex justify-center items-center rounded-lg shadow-md hover:bg-[#B28A6B] transition-colors duration-300"
+            >
+              <img
+                src="../public/icons/insta.svg"
+                alt="Instagram"
+                class="transform -rotate-45 w-5 h-5"
+              />
+            </div>
+            <div
+              class="w-[38px] h-[38px] transform rotate-45 bg-[#212121] flex justify-center items-center rounded-lg shadow-md hover:bg-[#B28A6B] transition-colors duration-300"
+            >
+              <img
+                src="../public/icons/twitter.svg"
+                alt="Twitter"
+                class="transform -rotate-45 w-5 h-5"
+              />
+            </div>
+            <div
+              class="w-[38px] h-[38px] transform rotate-45 bg-[#212121] flex justify-center items-center rounded-lg shadow-md hover:bg-[#B28A6B] transition-colors duration-300"
+            >
+              <img
+                src="../public/icons/p.svg"
+                alt="Pinterest"
+                class="transform -rotate-45 w-5 h-5"
+              />
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <div class="font-bold text-lg mb-4 text-[#524B46] relative">
+            <span
+              class="absolute -left-3 top-1/2 -translate-y-1/2 w-1.5 h-1.5 bg-[#B28A6B] rounded-full"
+            ></span>
+            Thông tin
+          </div>
+          <ul class="space-y-2">
+            <li>
+              <a href="#" class="text-sm hover:text-[#B28A6B]"
+                >Chính sách bảo mật</a
+              >
+            </li>
+            <li>
+              <a href="#" class="text-sm hover:text-[#B28A6B]"
+                >Dịch vụ khách hàng</a
+              >
+            </li>
+            <li>
+              <a href="#" class="text-sm hover:text-[#B28A6B]"
+                >Đơn hàng và đổi/trả hàng</a
+              >
+            </li>
+            <li>
+              <a href="#" class="text-sm hover:text-[#B28A6B]">Liên hệ</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div>
+        <div>© Copyright 2020 BOO. All Rights Reserved.</div>
+        <img src="../public/payment1.png" alt="" />
+      </div>
     </div>
   </div>
 </template>

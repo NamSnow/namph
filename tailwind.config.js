@@ -19,11 +19,16 @@ export default {
         primaryBlack: "#121216",
         "light-gray": "#666",
         "off-white": "#f4f4f4",
+        blackIcon: "#080808",
       },
 
       fontFamily: {
         kaushan: ['"Kaushan Script"', "cursive"],
         josefinsans: ['"Josefin Sans"'],
+      },
+
+      width: {
+        "viewport-80": "80vw",
       },
     },
   },
