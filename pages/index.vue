@@ -32,11 +32,16 @@
                 alt=""
                 class="cursor-pointer"
               />
-              <img
-                src="../public/home/icons/shopping_bag.svg"
-                alt=""
-                class="cursor-pointer"
-              />
+              <div class="relative inline-block">
+                <img
+                  src="../public/home/icons/shopping_bag.svg"
+                  alt=""
+                  class="cursor-pointer"
+                />
+                <div
+                  class="w-[5px] h-[5px] rounded-full bg-brown-accent absolute right-[3px] top-0 flex items-center justify-center text-white text-[8px] font-bold"
+                ></div>
+              </div>
             </div>
           </div>
 
@@ -90,7 +95,9 @@
         </div>
       </div>
 
-      <div class="container mx-auto flex items-center justify-between w-[80vw]">
+      <div
+        class="container mx-auto flex items-center justify-between w-viewport-80"
+      >
         <img src="../public/home/boy-left-header.png" alt="" class="max-w-sm" />
         <div class="text-center">
           <div>
