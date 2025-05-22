@@ -611,7 +611,7 @@
           </div>
           <div class="flex space-x-[0.625rem] gap-[0.625rem]">
             <div
-              class="w-[2.375rem] h-[2.375rem] transform rotate-45 bg-black flex justify-center items-center shadow-md hover:bg-brown-accent transition-colors duration-300"
+              class="cursor-pointer w-[2.375rem] h-[2.375rem] transform rotate-45 bg-black flex justify-center items-center shadow-md hover:bg-brown-accent transition-colors duration-300"
             >
               <img
                 src="../../home/icons/facebook.svg"
@@ -620,7 +620,7 @@
               />
             </div>
             <div
-              class="w-[2.375rem] h-[2.375rem] transform rotate-45 bg-black flex justify-center items-center shadow-md hover:bg-brown-accent transition-colors duration-300"
+              class="cursor-pointer w-[2.375rem] h-[2.375rem] transform rotate-45 bg-black flex justify-center items-center shadow-md hover:bg-brown-accent transition-colors duration-300"
             >
               <img
                 src="../../home/icons/insta.svg"
@@ -629,7 +629,7 @@
               />
             </div>
             <div
-              class="w-[2.375rem] h-[2.375rem] transform rotate-45 bg-black flex justify-center items-center shadow-md hover:bg-brown-accent transition-colors duration-300"
+              class="cursor-pointer w-[2.375rem] h-[2.375rem] transform rotate-45 bg-black flex justify-center items-center shadow-md hover:bg-brown-accent transition-colors duration-300"
             >
               <img
                 src="../../home/icons/twitter.svg"
@@ -638,7 +638,7 @@
               />
             </div>
             <div
-              class="w-[2.375rem] h-[2.375rem] transform rotate-45 bg-black flex justify-center items-center shadow-md hover:bg-brown-accent transition-colors duration-300"
+              class="cursor-pointer w-[2.375rem] h-[2.375rem] transform rotate-45 bg-black flex justify-center items-center shadow-md hover:bg-brown-accent transition-colors duration-300"
             >
               <img
                 src="../../home/icons/p.svg"
