@@ -8,32 +8,28 @@
         :alt="product.name"
         class="w-full h-auto object-cover"
       />
-
       <div
         class="absolute inset-0 bg-black opacity-0 group-hover:opacity-65 transition-opacity duration-300"
       ></div>
-
       <img
         src="/home/icons/heart.svg"
         alt="Add to wishlist"
         class="absolute right-4 top-4 w-6 h-6 cursor-pointer opacity-0 group-hover:opacity-100 transition-opacity duration-300 delay-100"
       />
-
       <div
         class="flex items-center gap-2 absolute bottom-[45px] opacity-0 group-hover:opacity-100 transition-opacity duration-300 delay-150 left-1/2 transform -translate-x-1/2"
       >
         <div
-          class="w-6 h-6 bg-white border border-gray-300 cursor-pointer outline outline-1 outline-offset-1 outline-gray-400"
-        ></div>
-        <div
-          class="w-6 h-6 bg-black border border-gray-300 cursor-pointer outline outline-1 outline-offset-1 outline-gray-400"
-        ></div>
-        <div
-          class="w-6 h-6 bg-gray-400 border border-gray-300 cursor-pointer outline outline-1 outline-offset-1 outline-gray-400"
+          v-for="(colorClass, index) in product.colors"
+          :key="index"
+          :class="[
+            colorClass,
+            'w-6 h-6 border border-gray-300 cursor-pointer outline outline-1 outline-offset-1 outline-gray-400',
+          ]"
+          @click="selectColor(colorClass)"
         ></div>
       </div>
     </div>
-
     <div class="mt-5 text-center px-4">
       <h3 class="font-bold text-gray-800 mb-1">
         {{ product.name }}
@@ -56,7 +52,7 @@
           alt="empty star"
           v-for="n in 5 - product.rating"
           :key="`empty-${n}`"
-          class="w-4 h-4 text-light-gray"
+          class="w-4 h-4"
           style="filter: grayscale(100%); opacity: 0.5"
         />
       </div>

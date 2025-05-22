@@ -1,23 +1,25 @@
 <template>
-  <div class="font-josefinsans">
+  <div class="font-josefinsans container">
     <!--  -->
-    <div class="header bg-colornew">
+    <div class="header bg-colornew container">
       <div class="banner p-4">
         <div class="mx-auto">
-          <div class="flex justify-between h-[60px] items-center">
-            <div class="w-[350px] relative h-full">
+          <div
+            class="flex items-center justify-between h-[3.75rem] flex-wrap sm:flex-nowrap"
+          >
+            <div class="relative h-full w-full sm:w-[21.875rem]">
               <input
                 type="search"
                 placeholder="Tìm kiếm"
-                class="w-full h-full py-2 pl-3 pr-10 placeholder-gray-500 focus:outline-none focus:ring-1 focus:ring-brand-primary border-b-2 border-light-gray-text bg-transparent"
+                class="h-full w-full py-2 pl-3 pr-10 placeholder-gray-500 focus:outline-none focus:ring-1 focus:ring-brand-primary border-b-2 border-light-gray-text bg-transparent"
               />
               <img
                 src="../../home/icons/search.svg"
                 alt="Search"
-                class="absolute right-3 top-1/2 transform -translate-y-1/2 h-5 w-5 text-gray-500 cursor-pointer"
+                class="absolute right-3 top-1/2 h-5 w-5 -translate-y-1/2 cursor-pointer text-gray-500"
               />
             </div>
-            <div class="h-full flex items-center">
+            <div class="flex h-full items-center">
               <img
                 src="../../home/icon-b.png"
                 alt=""
@@ -25,7 +27,7 @@
               />
             </div>
             <div
-              class="flex items-center justify-end space-x-1 w-[350px] gap-[15px]"
+              class="flex w-full sm:w-[21.875rem] items-center justify-end gap-[0.9375rem] space-x-1 mt-2 sm:mt-0"
             >
               <img
                 src="../../home/icons/account_circle.svg"
@@ -39,7 +41,7 @@
                   class="cursor-pointer"
                 />
                 <div
-                  class="w-1.25 h-1.25 rounded-full bg-brown-accent absolute right-[3px] top-0 flex items-center justify-center text-white text-[8px] font-bold"
+                  class="absolute right-[3px] top-0 flex h-1 w-1 items-center justify-center rounded-full bg-brown-accent text-[0.5rem] font-bold text-white"
                 ></div>
               </div>
             </div>
@@ -95,43 +97,61 @@
         </div>
       </div>
 
-      <div class="mx-auto flex items-center justify-between w-viewport-80">
-        <img src="../../home/boy-left-header.png" alt="" class="max-w-sm" />
-        <div class="text-center">
+      <div
+        class="mx-auto flex w-full flex-col items-center justify-between sm:flex-row md:w-viewport-80"
+      >
+        <img
+          src="../../home/boy-left-header.png"
+          alt=""
+          class="max-w-xs sm:max-w-sm mb-4 sm:mb-0"
+        />
+        <div class="text-center flex-grow">
           <div>
-            <div class="text-[32px]">
+            <div class="text-[1.5rem] sm:text-[2rem] font-bold">
               Giảm giá tới
               <span class="font-semibold text-brown-accent">40%</span>
             </div>
             <div
-              class="text-[90px] font-bold text-brown-accent font-kaushan w-[583px] h-[130px] flex-shrink-0 t"
+              class="flex h-[5rem] sm:h-[8.125rem] w-full flex-shrink-0 items-center justify-center font-kaushan text-[3rem] sm:text-[5.625rem] font-bold text-brown-accent"
             >
               Mùa hè
             </div>
           </div>
-          <div class="text-[32px] mt-2">Chỉ Trong tuần này</div>
+          <div class="mt-2 text-[1.5rem] sm:text-[2rem]">
+            Chỉ Trong tuần này
+          </div>
           <button
-            class="bg-brown-accent hover:bg-brown-darker text-white font-bold py-2 px-4 rounded mt-4 text-sm"
+            class="mt-4 rounded bg-brown-accent px-4 py-2 text-sm text-[1rem] sm:text-[1.25rem] font-bold text-white hover:bg-brown-darker"
           >
             Mua ngay
           </button>
           <div
-            class="flex justify-center items-center my-2 gap-[7.5px] mt-[180px]"
+            class="my-2 mt-[2rem] sm:mt-[11.25rem] flex items-center justify-center gap-[0.46875rem]"
           >
             <NextPageBig />
           </div>
         </div>
-        <img src="../../home/boy-right-header.png" alt="" class="max-w-sm" />
+        <img
+          src="../../home/boy-right-header.png"
+          alt=""
+          class="max-w-xs sm:max-w-sm mt-4 sm:mt-0"
+        />
       </div>
     </div>
 
     <!--  -->
-    <div class="banner mt-16 w-viewport-80 mx-auto">
-      <div class="flex justify-between gap-[30px]">
-        <div class="flex justify-between bg-gray-100 w-[690px] h-[430px]">
+    <div class="banner mt-16 w-[80vw] mx-auto">
+      <div class="flex justify-between gap-[1.875rem]">
+        <div
+          class="flex justify-between bg-gray-100 w-[43.125rem] h-[26.875rem]"
+        >
           <div class="mr-8 mt-16 ml-16">
-            <div class="text-[30px] font-semibold text-gray-800">Sản phẩm</div>
-            <div class="text-[30px] font-bold text-gray-900">Bán chạy nhất</div>
+            <div class="text-[1.875rem] font-semibold text-gray-800">
+              Sản phẩm
+            </div>
+            <div class="text-[1.875rem] font-bold text-gray-900">
+              Bán chạy nhất
+            </div>
             <div class="text-sm text-gray-600">Tuần khuyến mại lớn</div>
             <button
               class="bg-brown-accent hover:bg-brown-darker text-white font-bold py-2 px-4 rounded mt-4 text-sm"
@@ -139,16 +159,14 @@
               Mua ngay
             </button>
           </div>
-          <img
-            src="../../home/girl-banner-left.png"
-            alt=""
-            class="max-w-sm"
-          />
+          <img src="../../home/girl-banner-left.png" alt="" class="max-w-sm" />
         </div>
 
-        <div class="flex justify-between bg-gray-100 w-[690px] h-[430px]">
+        <div
+          class="flex justify-between bg-gray-100 w-[43.125rem] h-[26.875rem]"
+        >
           <div class="mr-8 mt-16 ml-16">
-            <div class="text-[30px] font-semibold text-gray-800">
+            <div class="text-[1.875rem] font-semibold text-gray-800">
               Bộ sưu tập mới
             </div>
             <div class="text-sm text-gray-600">Có sẵn ngay</div>
@@ -158,17 +176,13 @@
               Mua ngay
             </button>
           </div>
-          <img
-            src="../../home/boy-banner-right.png"
-            alt=""
-            class="max-w-sm"
-          />
+          <img src="../../home/boy-banner-right.png" alt="" class="max-w-sm" />
         </div>
       </div>
     </div>
 
     <!--  -->
-    <div class="mx-auto mt-8 w-viewport-80 text-center">
+    <div class="mx-auto mt-8 w-[80vw] text-center">
       <div class="mb-8 text-center">
         <h2 class="text-2xl font-bold text-gray-800 mb-2">Sản phẩm mới</h2>
         <NextPageSmall />
@@ -182,7 +196,7 @@
       </div>
 
       <div
-        class="flex justify-center items-center my-2 gap-[7.5px] mt-[47px] mb-[70px]"
+        class="flex justify-center items-center my-2 gap-[0.46875rem] mt-[2.9375rem] mb-[4.375rem]"
       >
         <NextPageBig />
       </div>
@@ -204,7 +218,7 @@
               Ưu đãi trong ngày
             </h2>
           </div>
-          <div class="flex justify-center items-center mb-2 gap-[15px]">
+          <div class="flex justify-center items-center mb-2 gap-[0.9375rem]">
             <NextPageSmall />
           </div>
           <p class="text-sm text-gray-600">
@@ -212,7 +226,7 @@
           </p>
         </div>
 
-        <div class="flex justify-around gap-[30px] w-viewport-80 mx-auto">
+        <div class="flex justify-around gap-[1.875rem] w-[80vw] mx-auto">
           <div
             class="bg-white shadow-md overflow-hidden flex flex-1 transform transition-transform duration-300 hover:scale-105"
           >
@@ -238,15 +252,15 @@
                   <span class="font-bold text-lg align-middle">00</span
                   ><br />Ngày
                 </div>
-                <div class="text-center pl-[20px]">
+                <div class="text-center pl-[1.25rem]">
                   <span class="font-bold text-lg align-middle">00</span
                   ><br />Giờ
                 </div>
-                <div class="text-center pl-[20px]">
+                <div class="text-center pl-[1.25rem]">
                   <span class="font-bold text-lg align-middle">00</span
                   ><br />Phút
                 </div>
-                <div class="text-center pl-[20px]">
+                <div class="text-center pl-[1.25rem]">
                   <span class="font-bold text-lg align-middle">00</span
                   ><br />Giây
                 </div>
@@ -260,7 +274,7 @@
             <img
               src="../../home/uudai-1.png"
               alt=""
-              class="w-[210px] h-[290px] object-cover pr-[15px] py-[25px]"
+              class="w-[13.125rem] h-[18.125rem] object-cover pr-[0.9375rem] py-[1.5625rem]"
             />
           </div>
 
@@ -293,15 +307,15 @@
                   <span class="font-bold text-lg align-middle">00</span
                   ><br />Ngày
                 </div>
-                <div class="text-center pl-[20px]">
+                <div class="text-center pl-[1.25rem]">
                   <span class="font-bold text-lg align-middle">00</span
                   ><br />Giờ
                 </div>
-                <div class="text-center pl-[20px]">
+                <div class="text-center pl-[1.25rem]">
                   <span class="font-bold text-lg align-middle">00</span
                   ><br />Phút
                 </div>
-                <div class="text-center pl-[20px]">
+                <div class="text-center pl-[1.25rem]">
                   <span class="font-bold text-lg align-middle">00</span
                   ><br />Giây
                 </div>
@@ -315,13 +329,13 @@
             <img
               src="../../home/uudai-2.png"
               alt=""
-              class="w-[210px] h-[290px] object-cover pr-[15px] py-[25px]"
+              class="w-[13.125rem] h-[18.125rem] object-cover pr-[0.9375rem] py-[1.5625rem]"
             />
           </div>
         </div>
 
         <div
-          class="flex justify-center items-center my-2 gap-[7.5px] mt-[60px] mb-[70px]"
+          class="flex justify-center items-center my-2 gap-[0.46875rem] mt-[3.75rem] mb-[4.375rem]"
         >
           <NextPageBig />
         </div>
@@ -329,40 +343,48 @@
     </div>
 
     <!--  -->
-    <div class="flex gap-[30px] justify-center mt-[80px] w-viewport-80 mx-auto">
+    <div class="flex gap-[1.875rem] justify-center mt-[5rem] w-[80vw] mx-auto">
       <div
-        class="relative w-[450px] h-[323px] bg-light-bg flex flex-row-reverse"
+        class="relative w-[28.125rem] h-[20.1875rem] bg-light-bg flex flex-row-reverse"
       >
         <img
           src="../../home/product-new1.png"
           alt=""
           class="w-1/2 h-full object-cover"
         />
-        <div class="absolute left-0 pt-[30px] pl-[35px] gap-[10px]">
+        <div
+          class="absolute left-0 pt-[1.875rem] pl-[2.1875rem] gap-[0.625rem]"
+        >
           <div class="text-xs text-gray-800 mb-1 underline">MUA NGAY</div>
           <div class="text-xl font-semibold text-gray-800">Xu hướng</div>
         </div>
       </div>
       <div
-        class="relative w-[450px] h-[323px] bg-lightest flex flex-row-reverse"
+        class="relative w-[28.125rem] h-[20.1875rem] bg-lightest flex flex-row-reverse"
       >
         <img
           src="../../home/product-new2.png"
           alt=""
           class="w-1/2 h-full object-contain"
         />
-        <div class="absolute left-0 pt-[30px] pl-[35px] gap-[10px]">
+        <div
+          class="absolute left-0 pt-[1.875rem] pl-[2.1875rem] gap-[0.625rem]"
+        >
           <div class="text-xs text-gray-800 mb-1 underline">MUA NGAY</div>
           <div class="text-xl font-semibold text-gray-800">Mới</div>
         </div>
       </div>
-      <div class="relative w-[450px] h-[323px] bg-light flex flex-row-reverse">
+      <div
+        class="relative w-[28.125rem] h-[20.1875rem] bg-light flex flex-row-reverse"
+      >
         <img
           src="../../home/product-new3.png"
           alt=""
           class="w-1/2 h-full object-contain"
         />
-        <div class="absolute left-0 pt-[30px] pl-[35px] gap-[10px]">
+        <div
+          class="absolute left-0 pt-[1.875rem] pl-[2.1875rem] gap-[0.625rem]"
+        >
           <div class="text-xs text-gray-800 mb-1 underline">MUA NGAY</div>
           <div class="text-xl font-semibold text-gray-800">Giảm giá</div>
         </div>
@@ -370,12 +392,12 @@
     </div>
 
     <!--  -->
-    <div class="mx-auto mt-8 w-viewport-80 text-center">
+    <div class="mx-auto mt-8 w-[80vw] text-center">
       <div class="mb-8 text-center">
         <h2 class="text-2xl font-bold text-gray-800 mb-2">
           Sản phẩm bán chạy nhất
         </h2>
-        <div class="flex justify-center items-center mb-2 gap-[15px]">
+        <div class="flex justify-center items-center mb-2 gap-[0.9375rem]">
           <NextPageSmall />
         </div>
         <p class="text-sm text-gray-600">
@@ -388,15 +410,15 @@
       </div>
 
       <div
-        class="flex justify-center items-center my-2 gap-[7.5px] mt-[47px] mb-[21px]"
+        class="flex justify-center items-center my-2 gap-[0.46875rem] mt-[2.9375rem] mb-[1.3125rem]"
       >
         <NextPageBig />
       </div>
     </div>
 
     <!--  -->
-    <div class="bg-off-white pt-[50px] text-center mx-auto">
-      <div class="mx-auto px-4 w-viewport-80">
+    <div class="bg-off-white pt-[3.125rem] text-center mx-auto">
+      <div class="mx-auto px-4 w-[80vw]">
         <div
           class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 text-center text-white"
         >
@@ -407,11 +429,11 @@
               class="w-14 h-14 mb-4 cursor-pointer"
             />
             <h3
-              class="text-[16px] font-bold text-[#CF9163] mb-2 min-h-[30px] flex items-center justify-center"
+              class="text-[1rem] font-bold text-[#CF9163] mb-2 min-h-[1.875rem] flex items-center justify-center"
             >
               GIAO HÀNG TOÀN CẦU
             </h3>
-            <p class="text-[14px] text-gray-400 flex-grow">
+            <p class="text-[0.875rem] text-gray-400 flex-grow">
               Hoạt động bằng 5 ngôn ngữ, chúng tôi giao hàng đến hơn 200 quốc
               gia và vùng lãnh thổ.
             </p>
@@ -424,11 +446,11 @@
               class="w-14 h-14 mb-4 cursor-pointer"
             />
             <h3
-              class="text-[16px] font-bold text-[#CF9163] mb-2 min-h-[30px] flex items-center justify-center"
+              class="text-[1rem] font-bold text-[#CF9163] mb-2 min-h-[1.875rem] flex items-center justify-center"
             >
               GIAO HÀNG ĐẢM BẢO
             </h3>
-            <p class="text-[14px] text-gray-400 flex-grow">
+            <p class="text-[0.875rem] text-gray-400 flex-grow">
               Thanh toán bằng các phương thức thanh toán phổ biến và an toàn
               nhất trên thế giới.
             </p>
@@ -441,11 +463,11 @@
               class="w-14 h-14 mb-4 cursor-pointer"
             />
             <h3
-              class="text-[16px] font-bold text-[#CF9163] mb-2 min-h-[30px] flex items-center justify-center"
+              class="text-[1rem] font-bold text-[#CF9163] mb-2 min-h-[1.875rem] flex items-center justify-center"
             >
               ĐỔI/TRẢ HÀNG TRONG VÒNG 365 NGÀY
             </h3>
-            <p class="text-[14px] text-gray-400 flex-grow">
+            <p class="text-[0.875rem] text-gray-400 flex-grow">
               Chúng tôi hỗ trợ 24/7 để mang lại trải nghiệm mua sắm trơn tru.
             </p>
           </div>
@@ -457,11 +479,11 @@
               class="w-14 h-14 mb-4 cursor-pointer"
             />
             <h3
-              class="text-[16px] font-bold text-[#CF9163] mb-2 min-h-[30px] flex items-center justify-center"
+              class="text-[1rem] font-bold text-[#CF9163] mb-2 min-h-[1.875rem] flex items-center justify-center"
             >
               MUA HÀNG MỘT CÁCH TỰ TIN
             </h3>
-            <p class="text-[14px] text-gray-400 flex-grow">
+            <p class="text-[0.875rem] text-gray-400 flex-grow">
               Chính sách bảo vệ người mua bao gồm mọi giao dịch từ khi nhấp
               chuột đến khi nhận hàng.
             </p>
@@ -522,15 +544,15 @@
         30% off trên toàn bộ đơn hàng của bạn khi nhập mã khuyến mãi.
       </div>
       <div
-        class="flex flex-col md:flex-row items-center w-full max-w-lg px-4 md:px-0"
+        class="flex flex-col md:flex-row items-center w-full max-w-2xl px-4 md:px-0"
       >
         <input
           type="email"
           placeholder="Nhập Email của bạn..."
-          class="w-full md:flex-grow py-2.5 pl-5 border border-[#E0E0E0] focus:outline-none focus:ring-2 focus:ring-[#B28A6B] mb-4 md:mb-0 text-[#524B46] placeholder-[#AAAAAA]"
+          class="w-full md:flex-grow py-[0.625rem] pl-[1.25rem] border border-[#E0E0E0] focus:outline-none focus:ring-2 focus:ring-[#B28A6B] mb-4 md:mb-0 text-[#524B46] placeholder-[#AAAAAA]"
         />
         <button
-          class="w-full md:w-auto px-8 py-2.5 bg-[#B28A6B] text-white font-bold hover:bg-[#A37B5C] transition-colors duration-300 whitespace-nowrap"
+          class="w-full md:w-auto px-8 py-[0.625rem] bg-[#B28A6B] text-white font-bold hover:bg-[#A37B5C] transition-colors duration-300 whitespace-nowrap"
         >
           Đăng ký
         </button>
@@ -547,7 +569,7 @@
         >
           <div class="font-bold text-lg mb-4 text-[#524B46] relative">
             <span
-              class="absolute -left-3 top-1/2 -translate-y-1/2 w-1.5 h-1.5 bg-[#B28A6B] rounded-full"
+              class="absolute -left-[0.75rem] top-1/2 -translate-y-1/2 w-[0.375rem] h-[0.375rem] bg-[#B28A6B] rounded-full"
             ></span>
             Khách hàng
           </div>
@@ -586,11 +608,12 @@
             <img src="../../home/icon-b.png" alt="BCO Logo" class="h-16" />
           </div>
           <div class="text-sm leading-relaxed mb-6 max-w-xs">
-            Khám phá phong cách mới tại cửa hàng Nơi mua sắm độc đáo và thú vị!
+            Khám phá phong cách mới tại cửa hàng. <br />
+            Nơi mua sắm độc đáo và thú vị!
           </div>
-          <div class="flex space-x-[10px] gap-[10px]">
+          <div class="flex space-x-[0.625rem] gap-[0.625rem]">
             <div
-              class="w-[38px] h-[38px] transform rotate-45 bg-[#212121] flex justify-center items-center shadow-md hover:bg-[#B28A6B] transition-colors duration-300"
+              class="w-[2.375rem] h-[2.375rem] transform rotate-45 bg-[#212121] flex justify-center items-center shadow-md hover:bg-[#B28A6B] transition-colors duration-300"
             >
               <img
                 src="../../home/icons/facebook.svg"
@@ -599,7 +622,7 @@
               />
             </div>
             <div
-              class="w-[38px] h-[38px] transform rotate-45 bg-[#212121] flex justify-center items-center shadow-md hover:bg-[#B28A6B] transition-colors duration-300"
+              class="w-[2.375rem] h-[2.375rem] transform rotate-45 bg-[#212121] flex justify-center items-center shadow-md hover:bg-[#B28A6B] transition-colors duration-300"
             >
               <img
                 src="../../home/icons/insta.svg"
@@ -608,7 +631,7 @@
               />
             </div>
             <div
-              class="w-[38px] h-[38px] transform rotate-45 bg-[#212121] flex justify-center items-center shadow-md hover:bg-[#B28A6B] transition-colors duration-300"
+              class="w-[2.375rem] h-[2.375rem] transform rotate-45 bg-[#212121] flex justify-center items-center shadow-md hover:bg-[#B28A6B] transition-colors duration-300"
             >
               <img
                 src="../../home/icons/twitter.svg"
@@ -617,7 +640,7 @@
               />
             </div>
             <div
-              class="w-[38px] h-[38px] transform rotate-45 bg-[#212121] flex justify-center items-center shadow-md hover:bg-[#B28A6B] transition-colors duration-300"
+              class="w-[2.375rem] h-[2.375rem] transform rotate-45 bg-[#212121] flex justify-center items-center shadow-md hover:bg-[#B28A6B] transition-colors duration-300"
             >
               <img
                 src="../../home/icons/p.svg"
@@ -635,7 +658,7 @@
         <div class="flex flex-col items-center text-center pt-8 md:pt-0 flex-1">
           <div class="font-bold text-lg mb-4 text-[#524B46] relative">
             <span
-              class="absolute -left-3 top-1/2 -translate-y-1/2 w-1.5 h-1.5 bg-[#B28A6B] rounded-full"
+              class="absolute -left-[0.75rem] top-1/2 -translate-y-1/2 w-[0.375rem] h-[0.375rem] bg-[#B28A6B] rounded-full"
             ></span>
             Thông tin
           </div>
