@@ -12,14 +12,14 @@
                 class="w-full h-full py-2 pl-3 pr-10 placeholder-gray-500 focus:outline-none focus:ring-1 focus:ring-brand-primary border-b-2 border-light-gray-text bg-transparent"
               />
               <img
-                src="../public/home/icons/search.svg"
+                src="../../home/icons/search.svg"
                 alt="Search"
                 class="absolute right-3 top-1/2 transform -translate-y-1/2 h-5 w-5 text-gray-500 cursor-pointer"
               />
             </div>
             <div class="h-full flex items-center">
               <img
-                src="../public/home/icon-b.png"
+                src="../../home/icon-b.png"
                 alt=""
                 class="h-full object-contain"
               />
@@ -28,13 +28,13 @@
               class="flex items-center justify-end space-x-1 w-[350px] gap-[15px]"
             >
               <img
-                src="../public/home/icons/account_circle.svg"
+                src="../../home/icons/account_circle.svg"
                 alt=""
                 class="cursor-pointer"
               />
               <div class="relative inline-block">
                 <img
-                  src="../public/home/icons/shopping_bag.svg"
+                  src="../../home/icons/shopping_bag.svg"
                   alt=""
                   class="cursor-pointer"
                 />
@@ -96,7 +96,7 @@
       </div>
 
       <div class="mx-auto flex items-center justify-between w-viewport-80">
-        <img src="../public/home/boy-left-header.png" alt="" class="max-w-sm" />
+        <img src="../../home/boy-left-header.png" alt="" class="max-w-sm" />
         <div class="text-center">
           <div>
             <div class="text-[32px]">
@@ -121,11 +121,7 @@
             <NextPageBig />
           </div>
         </div>
-        <img
-          src="../public/home/boy-right-header.png"
-          alt=""
-          class="max-w-sm"
-        />
+        <img src="../../home/boy-right-header.png" alt="" class="max-w-sm" />
       </div>
     </div>
 
@@ -144,7 +140,7 @@
             </button>
           </div>
           <img
-            src="../public/home/girl-banner-left.png"
+            src="../../home/girl-banner-left.png"
             alt=""
             class="max-w-sm"
           />
@@ -163,7 +159,7 @@
             </button>
           </div>
           <img
-            src="../public/home/boy-banner-right.png"
+            src="../../home/boy-banner-right.png"
             alt=""
             class="max-w-sm"
           />
@@ -262,7 +258,7 @@
               </button>
             </div>
             <img
-              src="../public/home/uudai-1.png"
+              src="../../home/uudai-1.png"
               alt=""
               class="w-[210px] h-[290px] object-cover pr-[15px] py-[25px]"
             />
@@ -317,7 +313,7 @@
               </button>
             </div>
             <img
-              src="../public/home/uudai-2.png"
+              src="../../home/uudai-2.png"
               alt=""
               class="w-[210px] h-[290px] object-cover pr-[15px] py-[25px]"
             />
@@ -338,7 +334,7 @@
         class="relative w-[450px] h-[323px] bg-light-bg flex flex-row-reverse"
       >
         <img
-          src="../public/home/product-new1.png"
+          src="../../home/product-new1.png"
           alt=""
           class="w-1/2 h-full object-cover"
         />
@@ -351,7 +347,7 @@
         class="relative w-[450px] h-[323px] bg-lightest flex flex-row-reverse"
       >
         <img
-          src="../public/home/product-new2.png"
+          src="../../home/product-new2.png"
           alt=""
           class="w-1/2 h-full object-contain"
         />
@@ -362,7 +358,7 @@
       </div>
       <div class="relative w-[450px] h-[323px] bg-light flex flex-row-reverse">
         <img
-          src="../public/home/product-new3.png"
+          src="../../home/product-new3.png"
           alt=""
           class="w-1/2 h-full object-contain"
         />
@@ -406,7 +402,7 @@
         >
           <div class="flex flex-col items-center">
             <img
-              src="../public/home/icons/truck1.svg"
+              src="../../home/icons/truck1.svg"
               alt="Truck icon"
               class="w-14 h-14 mb-4 cursor-pointer"
             />
@@ -423,7 +419,7 @@
 
           <div class="flex flex-col items-center">
             <img
-              src="../public/home/icons/unlock1.svg"
+              src="../../home/icons/unlock1.svg"
               alt="Unlock icon"
               class="w-14 h-14 mb-4 cursor-pointer"
             />
@@ -440,7 +436,7 @@
 
           <div class="flex flex-col items-center">
             <img
-              src="../public/home/icons/refresh-ccw1.svg"
+              src="../../home/icons/refresh-ccw1.svg"
               alt="Refresh icon"
               class="w-14 h-14 mb-4 cursor-pointer"
             />
@@ -456,7 +452,7 @@
 
           <div class="flex flex-col items-center">
             <img
-              src="../public/home/icons/shopping-bag1.svg"
+              src="../../home/icons/shopping-bag1.svg"
               alt="Shopping bag icon"
               class="w-14 h-14 mb-4 cursor-pointer"
             />
@@ -477,32 +473,32 @@
     <!--  -->
     <div class="flex w-full py-8 gap-x-[1.875rem] justify-center">
       <img
-        src="../public/home/insta11.png"
+        src="../../home/insta11.png"
         alt=""
         class="h-[14rem] object-cover flex-grow"
       />
       <img
-        src="../public/home/insta21.png"
+        src="../../home/insta21.png"
         alt=""
         class="h-[14rem] object-cover flex-grow"
       />
       <img
-        src="../public/home/insta31.png"
+        src="../../home/insta31.png"
         alt=""
         class="h-[14rem] object-cover flex-grow"
       />
       <img
-        src="../public/home/insta41.png"
+        src="../../home/insta41.png"
         alt=""
         class="h-[14rem] object-cover flex-grow"
       />
       <img
-        src="../public/home/insta51.png"
+        src="../../home/insta51.png"
         alt=""
         class="h-[14rem] object-cover flex-grow"
       />
       <img
-        src="../public/home/insta71.png"
+        src="../../home/insta71.png"
         alt=""
         class="h-[14rem] object-cover flex-grow"
       />
@@ -531,10 +527,10 @@
         <input
           type="email"
           placeholder="Nhập Email của bạn..."
-          class="w-full md:flex-grow p-3 border border-[#E0E0E0] focus:outline-none focus:ring-2 focus:ring-[#B28A6B] mb-4 md:mb-0 text-[#524B46] placeholder-[#AAAAAA]"
+          class="w-full md:flex-grow py-2.5 pl-5 border border-[#E0E0E0] focus:outline-none focus:ring-2 focus:ring-[#B28A6B] mb-4 md:mb-0 text-[#524B46] placeholder-[#AAAAAA]"
         />
         <button
-          class="w-full md:w-auto px-8 py-3 bg-[#B28A6B] text-white font-bold hover:bg-[#A37B5C] transition-colors duration-300 whitespace-nowrap"
+          class="w-full md:w-auto px-8 py-2.5 bg-[#B28A6B] text-white font-bold hover:bg-[#A37B5C] transition-colors duration-300 whitespace-nowrap"
         >
           Đăng ký
         </button>
@@ -542,12 +538,12 @@
     </div>
 
     <!--  -->
-    <div class="w-viewport-80 mx-auto">
+    <div class="w-full mx-auto text-center">
       <div
-        class="flex flex-col md:flex-row justify-around items-start md:items-start p-8 bg-white text-[#524B46]"
+        class="flex flex-col md:flex-row justify-around items-start md:items-start p-8 bg-white text-[#524B46] relative"
       >
         <div
-          class="flex flex-col items-center text-center pb-8 md:pb-0 md:border-r md:border-gray-200 md:pr-12 lg:pr-24"
+          class="flex flex-col items-center text-center pb-8 md:pb-0 md:pr-12 lg:pr-24 flex-1"
         >
           <div class="font-bold text-lg mb-4 text-[#524B46] relative">
             <span
@@ -580,10 +576,14 @@
         </div>
 
         <div
-          class="flex flex-col items-center text-center px-4 md:px-8 mb-8 md:mb-0 md:border-r md:border-gray-200 md:pr-12 lg:pr-24"
+          class="hidden md:block absolute left-1/3 top-0 bottom-0 w-px bg-gray-200"
+        ></div>
+
+        <div
+          class="flex flex-col items-center text-center px-4 md:px-8 mb-8 md:mb-0 flex-1"
         >
           <div class="mb-4">
-            <img src="../public/home/icon-b.png" alt="BCO Logo" class="h-16" />
+            <img src="../../home/icon-b.png" alt="BCO Logo" class="h-16" />
           </div>
           <div class="text-sm leading-relaxed mb-6 max-w-xs">
             Khám phá phong cách mới tại cửa hàng Nơi mua sắm độc đáo và thú vị!
@@ -593,7 +593,7 @@
               class="w-[38px] h-[38px] transform rotate-45 bg-[#212121] flex justify-center items-center shadow-md hover:bg-[#B28A6B] transition-colors duration-300"
             >
               <img
-                src="../public/home/icons/facebook.svg"
+                src="../../home/icons/facebook.svg"
                 alt="Facebook"
                 class="transform -rotate-45 w-5 h-5"
               />
@@ -602,7 +602,7 @@
               class="w-[38px] h-[38px] transform rotate-45 bg-[#212121] flex justify-center items-center shadow-md hover:bg-[#B28A6B] transition-colors duration-300"
             >
               <img
-                src="../public/home/icons/insta.svg"
+                src="../../home/icons/insta.svg"
                 alt="Instagram"
                 class="transform -rotate-45 w-5 h-5"
               />
@@ -611,7 +611,7 @@
               class="w-[38px] h-[38px] transform rotate-45 bg-[#212121] flex justify-center items-center shadow-md hover:bg-[#B28A6B] transition-colors duration-300"
             >
               <img
-                src="../public/home/icons/twitter.svg"
+                src="../../home/icons/twitter.svg"
                 alt="Twitter"
                 class="transform -rotate-45 w-5 h-5"
               />
@@ -620,7 +620,7 @@
               class="w-[38px] h-[38px] transform rotate-45 bg-[#212121] flex justify-center items-center shadow-md hover:bg-[#B28A6B] transition-colors duration-300"
             >
               <img
-                src="../public/home/icons/p.svg"
+                src="../../home/icons/p.svg"
                 alt="Pinterest"
                 class="transform -rotate-45 w-5 h-5"
               />
@@ -628,7 +628,11 @@
           </div>
         </div>
 
-        <div class="flex flex-col items-center text-center pt-8 md:pt-0">
+        <div
+          class="hidden md:block absolute left-2/3 top-0 bottom-0 w-px bg-gray-200"
+        ></div>
+
+        <div class="flex flex-col items-center text-center pt-8 md:pt-0 flex-1">
           <div class="font-bold text-lg mb-4 text-[#524B46] relative">
             <span
               class="absolute -left-3 top-1/2 -translate-y-1/2 w-1.5 h-1.5 bg-[#B28A6B] rounded-full"
@@ -659,14 +663,14 @@
       </div>
 
       <div
-        class="flex flex-col md:flex-row justify-between items-center py-4 px-8 border-t border-gray-200 text-gray-600 text-sm"
+        class="flex flex-col md:flex-row justify-between items-center py-4 px-8 border-t border-gray-200 text-gray-600 text-sm w-full"
       >
         <div class="mb-2 md:mb-0">
           © Copyright 2020 BOO. All Rights Reserved.
         </div>
         <div>
           <img
-            src="../public/home/payment1.png"
+            src="../../home/payment1.png"
             alt="Payment Methods"
             class="h-6"
           />
