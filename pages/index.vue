@@ -531,7 +531,7 @@
       class="flex flex-col items-center justify-center py-16 px-4 bg-[#F2F2F2] text-center"
     >
       <div
-        class="text-[#B28A6B] text-base md:text-lg font-bold uppercase tracking-widest mb-2"
+        class="text-brown-accent text-base md:text-lg font-bold uppercase tracking-widest mb-2"
       >
         Thư thông báo
       </div>
@@ -549,10 +549,10 @@
         <input
           type="email"
           placeholder="Nhập Email của bạn..."
-          class="w-full md:flex-grow py-[0.625rem] pl-[1.25rem] border border-[#E0E0E0] focus:outline-none focus:ring-2 focus:ring-[#B28A6B] mb-4 md:mb-0 text-[#524B46] placeholder-[#AAAAAA]"
+          class="w-full md:flex-grow py-[0.625rem] pl-[1.25rem] border border-[#E0E0E0] focus:outline-none focus:ring-2 focus:ring-brown-accent mb-4 md:mb-0 text-[#524B46] placeholder-[#AAAAAA]"
         />
         <button
-          class="w-full md:w-auto px-8 py-[0.625rem] bg-[#B28A6B] text-white font-bold hover:bg-[#A37B5C] transition-colors duration-300 whitespace-nowrap"
+          class="w-full md:w-auto px-8 py-[0.625rem] bg-brown-accent text-white font-bold hover:bg-[#A37B5C] transition-colors duration-300 whitespace-nowrap"
         >
           Đăng ký
         </button>
@@ -562,35 +562,35 @@
     <!--  -->
     <div class="w-full mx-auto text-center">
       <div
-        class="flex flex-col md:flex-row justify-around items-start md:items-start p-8 bg-white text-[#524B46] relative"
+        class="flex flex-col md:flex-row justify-around items-start md:items-start p-8 bg-white relative"
       >
         <div
           class="flex flex-col items-center text-center pb-8 md:pb-0 md:pr-12 lg:pr-24 flex-1"
         >
-          <div class="font-bold text-lg mb-4 text-[#524B46] relative">
+          <div class="font-bold text-lg mb-4 relative">
             <span
-              class="absolute -left-[0.75rem] top-1/2 -translate-y-1/2 w-[0.375rem] h-[0.375rem] bg-[#B28A6B] rounded-full"
+              class="absolute -left-[0.75rem] top-1/2 -translate-y-1/2 w-[0.375rem] h-[0.375rem] bg-brown-accent rounded-full"
             ></span>
             Khách hàng
           </div>
           <ul class="space-y-2">
             <li>
-              <a href="#" class="text-sm hover:text-[#B28A6B]"
+              <a href="#" class="text-sm hover:text-brown-accent"
                 >Vận chuyển & Đổi/trả hàng</a
               >
             </li>
             <li>
-              <a href="#" class="text-sm hover:text-[#B28A6B]"
+              <a href="#" class="text-sm hover:text-brown-accent"
                 >Mua sắm an toàn</a
               >
             </li>
             <li>
-              <a href="#" class="text-sm hover:text-[#B28A6B]"
+              <a href="#" class="text-sm hover:text-brown-accent"
                 >Trạng thái đơn hàng</a
               >
             </li>
             <li>
-              <a href="#" class="text-sm hover:text-[#B28A6B]"
+              <a href="#" class="text-sm hover:text-brown-accent"
                 >Vận chuyển quốc tế</a
               >
             </li>
@@ -613,7 +613,7 @@
           </div>
           <div class="flex space-x-[0.625rem] gap-[0.625rem]">
             <div
-              class="w-[2.375rem] h-[2.375rem] transform rotate-45 bg-[#212121] flex justify-center items-center shadow-md hover:bg-[#B28A6B] transition-colors duration-300"
+              class="w-[2.375rem] h-[2.375rem] transform rotate-45 bg-[#212121] flex justify-center items-center shadow-md hover:bg-brown-accent transition-colors duration-300"
             >
               <img
                 src="../../home/icons/facebook.svg"
@@ -622,7 +622,7 @@
               />
             </div>
             <div
-              class="w-[2.375rem] h-[2.375rem] transform rotate-45 bg-[#212121] flex justify-center items-center shadow-md hover:bg-[#B28A6B] transition-colors duration-300"
+              class="w-[2.375rem] h-[2.375rem] transform rotate-45 bg-[#212121] flex justify-center items-center shadow-md hover:bg-brown-accent transition-colors duration-300"
             >
               <img
                 src="../../home/icons/insta.svg"
@@ -631,7 +631,7 @@
               />
             </div>
             <div
-              class="w-[2.375rem] h-[2.375rem] transform rotate-45 bg-[#212121] flex justify-center items-center shadow-md hover:bg-[#B28A6B] transition-colors duration-300"
+              class="w-[2.375rem] h-[2.375rem] transform rotate-45 bg-[#212121] flex justify-center items-center shadow-md hover:bg-brown-accent transition-colors duration-300"
             >
               <img
                 src="../../home/icons/twitter.svg"
@@ -640,7 +640,7 @@
               />
             </div>
             <div
-              class="w-[2.375rem] h-[2.375rem] transform rotate-45 bg-[#212121] flex justify-center items-center shadow-md hover:bg-[#B28A6B] transition-colors duration-300"
+              class="w-[2.375rem] h-[2.375rem] transform rotate-45 bg-[#212121] flex justify-center items-center shadow-md hover:bg-brown-accent transition-colors duration-300"
             >
               <img
                 src="../../home/icons/p.svg"
@@ -658,28 +658,28 @@
         <div class="flex flex-col items-center text-center pt-8 md:pt-0 flex-1">
           <div class="font-bold text-lg mb-4 text-[#524B46] relative">
             <span
-              class="absolute -left-[0.75rem] top-1/2 -translate-y-1/2 w-[0.375rem] h-[0.375rem] bg-[#B28A6B] rounded-full"
+              class="absolute -left-[0.75rem] top-1/2 -translate-y-1/2 w-[0.375rem] h-[0.375rem] bg-brown-accent rounded-full"
             ></span>
             Thông tin
           </div>
           <ul class="space-y-2">
             <li>
-              <a href="#" class="text-sm hover:text-[#B28A6B]"
+              <a href="#" class="text-sm hover:text-brown-accent"
                 >Chính sách bảo mật</a
               >
             </li>
             <li>
-              <a href="#" class="text-sm hover:text-[#B28A6B]"
+              <a href="#" class="text-sm hover:text-brown-accent"
                 >Dịch vụ khách hàng</a
               >
             </li>
             <li>
-              <a href="#" class="text-sm hover:text-[#B28A6B]"
+              <a href="#" class="text-sm hover:text-brown-accent"
                 >Đơn hàng và đổi/trả hàng</a
               >
             </li>
             <li>
-              <a href="#" class="text-sm hover:text-[#B28A6B]">Liên hệ</a>
+              <a href="#" class="text-sm hover:text-brown-accent">Liên hệ</a>
             </li>
           </ul>
         </div>
