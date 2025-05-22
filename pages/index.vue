@@ -1,9 +1,9 @@
 <template>
-  <div class="container font-josefinsans">
+  <div class="font-josefinsans">
     <!--  -->
     <div class="header bg-colornew">
       <div class="banner p-4">
-        <div class="container mx-auto">
+        <div class="mx-auto">
           <div class="flex justify-between h-[60px] items-center">
             <div class="w-[350px] relative h-full">
               <input
@@ -39,7 +39,7 @@
                   class="cursor-pointer"
                 />
                 <div
-                  class="w-[5px] h-[5px] rounded-full bg-brown-accent absolute right-[3px] top-0 flex items-center justify-center text-white text-[8px] font-bold"
+                  class="w-1.25 h-1.25 rounded-full bg-brown-accent absolute right-[3px] top-0 flex items-center justify-center text-white text-[8px] font-bold"
                 ></div>
               </div>
             </div>
@@ -95,9 +95,7 @@
         </div>
       </div>
 
-      <div
-        class="container mx-auto flex items-center justify-between w-viewport-80"
-      >
+      <div class="mx-auto flex items-center justify-between w-viewport-80">
         <img src="../public/home/boy-left-header.png" alt="" class="max-w-sm" />
         <div class="text-center">
           <div>
@@ -118,28 +116,9 @@
             Mua ngay
           </button>
           <div
-            class="flex justify-center items-center my-2 gap-[15px] mt-[180px]"
+            class="flex justify-center items-center my-2 gap-[7.5px] mt-[180px]"
           >
-            <div class="relative flex items-center justify-center w-16 h-16">
-              <div
-                class="w-full h-full border border-gray-300 rounded-full"
-              ></div>
-              <div
-                class="w-4 h-4 transform rotate-45 bg-brown-accent absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 cursor-pointer"
-              ></div>
-            </div>
-
-            <div class="relative flex items-center justify-center w-16 h-16">
-              <div
-                class="w-4 h-4 transform rotate-45 bg-silver cursor-pointer"
-              ></div>
-            </div>
-
-            <div class="relative flex items-center justify-center w-16 h-16">
-              <div
-                class="w-4 h-4 transform rotate-45 bg-silver cursor-pointer"
-              ></div>
-            </div>
+            <NextPageBig />
           </div>
         </div>
         <img
@@ -151,7 +130,7 @@
     </div>
 
     <!--  -->
-    <div class="banner mt-16 container w-viewport-80 mx-auto">
+    <div class="banner mt-16 w-viewport-80 mx-auto">
       <div class="flex justify-between gap-[30px]">
         <div class="flex justify-between bg-gray-100 w-[690px] h-[430px]">
           <div class="mr-8 mt-16 ml-16">
@@ -196,216 +175,41 @@
     <div class="mx-auto mt-8 w-viewport-80 text-center">
       <div class="mb-8 text-center">
         <h2 class="text-2xl font-bold text-gray-800 mb-2">Sản phẩm mới</h2>
-        <div class="flex justify-center items-center mb-2 gap-[15px]">
-          <img src="../public/home/icons/nexttrangsmall.svg" alt="" />
-        </div>
+        <NextPageSmall />
         <p class="text-sm text-gray-600">
           Thời Trang Mới, Phong Cách Mới - Khám Phá Sản Phẩm Mới Để Tỏa Sáng
         </p>
       </div>
 
       <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-        <div
-          class="bg-white overflow-hidden flex flex-col items-center pb-4 relative group"
-        >
-          <div class="relative w-full h-auto">
-            <img
-              src="../public/home/sanpham-1.png"
-              alt=""
-              class="w-full h-auto object-cover"
-            />
-
-            <div
-              class="absolute inset-0 bg-black opacity-0 group-hover:opacity-65 transition-opacity duration-300"
-            ></div>
-
-            <img
-              src="../public/home/icons/heart.svg"
-              alt=""
-              class="absolute right-4 top-4 text-xl cursor-pointer opacity-0 group-hover:opacity-100 transition-opacity duration-300 delay-100"
-            />
-
-            <div
-              class="flex items-center gap-2 absolute bottom-[45px] opacity-0 group-hover:opacity-100 transition-opacity duration-300 delay-150 left-1/2 transform -translate-x-1/2"
-            >
-              <div
-                class="w-6 h-6 bg-white border border-gray-300 cursor-pointer outline outline-1 outline-offset-1 outline-gray-400"
-              ></div>
-              <div
-                class="w-6 h-6 bg-black border border-gray-300 cursor-pointer outline outline-1 outline-offset-1 outline-gray-400"
-              ></div>
-              <div
-                class="w-6 h-6 bg-gray-400 border border-gray-300 cursor-pointer outline outline-1 outline-offset-1 outline-gray-400"
-              ></div>
-            </div>
-          </div>
-
-          <div class="mt-5 text-center px-4">
-            <h3 class="font-bold text-gray-800 mb-1">
-              ÁO PHÔNG GRAPHIC YOU CAN'T PLEASE ALL
-            </h3>
-            <div class="text-[#CF9163] mb-1">599.000 đ</div>
-            <div class="flex justify-center items-center gap-1">
-              <img src="../public/home/icons/star.svg" alt="" />
-              <img src="../public/home/icons/star.svg" alt="" />
-              <img src="../public/home/icons/star.svg" alt="" />
-              <img src="../public/home/icons/star.svg" alt="" />
-              <img src="../public/home/icons/star.svg" alt="" />
-            </div>
-          </div>
-        </div>
-
-        <div
-          class="bg-white overflow-hidden flex flex-col items-center pb-4 relative group"
-        >
-          <div class="relative w-full h-auto">
-            <img
-              src="../public/home/sanpham-2.png"
-              alt=""
-              class="w-full h-auto object-cover"
-            />
-            <div
-              class="absolute inset-0 bg-black opacity-0 group-hover:opacity-65 transition-opacity duration-300"
-            ></div>
-            <img
-              src="../public/home/icons/heart.svg"
-              alt=""
-              class="absolute right-4 top-4 text-xl cursor-pointer opacity-0 group-hover:opacity-100 transition-opacity duration-300 delay-100"
-            />
-            <div
-              class="flex items-center gap-2 absolute bottom-[45px] opacity-0 group-hover:opacity-100 transition-opacity duration-300 delay-150 left-1/2 transform -translate-x-1/2"
-            >
-              <div
-                class="w-6 h-6 bg-white border border-gray-300 cursor-pointer outline outline-1 outline-offset-1 outline-gray-400"
-              ></div>
-              <div
-                class="w-6 h-6 bg-black border border-gray-300 cursor-pointer outline outline-1 outline-offset-1 outline-gray-400"
-              ></div>
-              <div
-                class="w-6 h-6 bg-gray-400 border border-gray-300 cursor-pointer outline outline-1 outline-offset-1 outline-gray-400"
-              ></div>
-            </div>
-          </div>
-          <div class="mt-5 text-center px-4">
-            <h3 class="font-bold text-gray-800 mb-1">
-              ÁO PHÔNG NỮ BABY TEE LOGO LOTSO
-            </h3>
-            <div class="text-[#CF9163] mb-1">499.000 đ</div>
-            <div class="flex justify-center items-center gap-1">
-              <img src="../public/home/icons/star.svg" alt="" />
-              <img src="../public/home/icons/star.svg" alt="" />
-              <img src="../public/home/icons/star.svg" alt="" />
-              <img src="../public/home/icons/star.svg" alt="" />
-              <img src="../public/home/icons/star.svg" alt="" />
-            </div>
-          </div>
-        </div>
-
-        <div
-          class="bg-white overflow-hidden flex flex-col items-center pb-4 relative group"
-        >
-          <div class="relative w-full h-auto">
-            <img
-              src="../public/home/sanpham-3.png"
-              alt=""
-              class="w-full h-auto object-cover"
-            />
-            <div
-              class="absolute inset-0 bg-black opacity-0 group-hover:opacity-65 transition-opacity duration-300"
-            ></div>
-            <img
-              src="../public/home/icons/heart.svg"
-              alt=""
-              class="absolute right-4 top-4 text-xl cursor-pointer opacity-0 group-hover:opacity-100 transition-opacity duration-300 delay-100"
-            />
-            <div
-              class="flex items-center gap-2 absolute bottom-[45px] opacity-0 group-hover:opacity-100 transition-opacity duration-300 delay-150 left-1/2 transform -translate-x-1/2"
-            >
-              <div
-                class="w-6 h-6 bg-white border border-gray-300 cursor-pointer outline outline-1 outline-offset-1 outline-gray-400"
-              ></div>
-              <div
-                class="w-6 h-6 bg-black border border-gray-300 cursor-pointer outline outline-1 outline-offset-1 outline-gray-400"
-              ></div>
-              <div
-                class="w-6 h-6 bg-gray-400 border border-gray-300 cursor-pointer outline outline-1 outline-offset-1 outline-gray-400"
-              ></div>
-            </div>
-          </div>
-          <div class="mt-5 text-center px-4">
-            <h3 class="font-bold text-gray-800 mb-1">
-              ÁO SƠ MI KẺ CARO ESSENTIAL OVERSIZED
-            </h3>
-            <div class="text-[#CF9163] mb-1">699.000 đ</div>
-            <div class="flex justify-center items-center gap-1">
-              <img src="../public/home/icons/star.svg" alt="" />
-              <img src="../public/home/icons/star.svg" alt="" />
-              <img src="../public/home/icons/star.svg" alt="" />
-              <img src="../public/home/icons/star.svg" alt="" />
-              <img src="../public/home/icons/star.svg" alt="" />
-            </div>
-          </div>
-        </div>
-
-        <div
-          class="bg-white overflow-hidden flex flex-col items-center pb-4 relative group"
-        >
-          <div class="relative w-full h-auto">
-            <img
-              src="../public/home/sanpham-4.png"
-              alt=""
-              class="w-full h-auto object-cover"
-            />
-            <div
-              class="absolute inset-0 bg-black opacity-0 group-hover:opacity-65 transition-opacity duration-300"
-            ></div>
-            <img
-              src="../public/home/icons/heart.svg"
-              alt=""
-              class="absolute right-4 top-4 text-xl cursor-pointer opacity-0 group-hover:opacity-100 transition-opacity duration-300 delay-100"
-            />
-            <div
-              class="flex items-center gap-2 absolute bottom-[45px] opacity-0 group-hover:opacity-100 transition-opacity duration-300 delay-150 left-1/2 transform -translate-x-1/2"
-            >
-              <div
-                class="w-6 h-6 bg-white border border-gray-300 cursor-pointer outline outline-1 outline-offset-1 outline-gray-400"
-              ></div>
-              <div
-                class="w-6 h-6 bg-black border border-gray-300 cursor-pointer outline outline-1 outline-offset-1 outline-gray-400"
-              ></div>
-              <div
-                class="w-6 h-6 bg-gray-400 border border-gray-300 cursor-pointer outline outline-1 outline-offset-1 outline-gray-400"
-              ></div>
-            </div>
-          </div>
-          <div class="mt-5 text-center px-4">
-            <h3 class="font-bold text-gray-800 mb-1">
-              MŨ DAD CAP THÊU LOGO MARVEL GO VN
-            </h3>
-            <div class="text-[#CF9163] mb-1">304.000 đ</div>
-            <div class="flex justify-center items-center gap-1">
-              <img src="../public/home/icons/star.svg" alt="" />
-              <img src="../public/home/icons/star.svg" alt="" />
-              <img src="../public/home/icons/star.svg" alt="" />
-              <img src="../public/home/icons/star.svg" alt="" />
-              <img src="../public/home/icons/star.svg" alt="" />
-            </div>
-          </div>
-        </div>
+        <ProductList1 />
       </div>
 
-      <div class="flex justify-center items-center my-2 gap-[45px] mt-[47px]">
-        <img src="../public/home/icons/nexttrangbig.svg" alt="" />
+      <div
+        class="flex justify-center items-center my-2 gap-[7.5px] mt-[47px] mb-[70px]"
+      >
+        <NextPageBig />
       </div>
     </div>
 
     <!--  -->
-    <div class="bg-beige pt-10 text-center">
-      <div class="container mx-auto">
+    <div class="bg-beige pt-10 h-screen">
+      <div class="mx-auto">
         <div class="mb-6 text-center">
-          <h2 class="text-2xl font-bold text-dark">Ưu đãi trong ngày</h2>
-          <div class="flex justify-center items-center my-2 gap-[15px]">
-            <img src="../public/home/icons/nexttrangsmall.svg" alt="" />
+          <div class="relative w-full">
+            <img
+              src="../../home/title-bg1.png"
+              alt="Ưu đãi trong ngày background"
+              class="mx-auto object-cover"
+            />
+            <h2
+              class="text-2xl font-bold text-dark absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 whitespace-nowrap"
+            >
+              Ưu đãi trong ngày
+            </h2>
+          </div>
+          <div class="flex justify-center items-center mb-2 gap-[15px]">
+            <NextPageSmall />
           </div>
           <p class="text-sm text-gray-600">
             Duy Nhất Trong Hôm Nay, Ưu Đãi Không Thể Bỏ Lỡ
@@ -413,18 +217,16 @@
         </div>
 
         <div class="flex justify-around gap-[30px] w-viewport-80 mx-auto">
-          <div class="bg-white shadow-md overflow-hidden flex">
+          <div
+            class="bg-white shadow-md overflow-hidden flex flex-1 transform transition-transform duration-300 hover:scale-105"
+          >
             <div class="p-6 flex-1">
               <h3 class="font-semibold text-gray-800 mb-2">
                 ÁO PHÔNG LOGO KIND OF BASIC REGULAR
               </h3>
-              <div
-                class="text-gray-600 line-through mr-2 inline-block align-middle"
-              >
-                599.000 đ
-              </div>
-              <div class="text-brown-accent inline-block align-middle">
-                304.000 đ
+              <div class="flex items-center mb-2">
+                <div class="text-gray-600 line-through mr-2">599.000 đ</div>
+                <div class="text-brown-accent">304.000 đ</div>
               </div>
               <div class="flex justify-between items-center mt-2">
                 <div class="text-sm text-gray-600">13% đã bán</div>
@@ -466,7 +268,9 @@
             />
           </div>
 
-          <div class="bg-white shadow-md overflow-hidden flex">
+          <div
+            class="bg-white shadow-md overflow-hidden flex flex-1 transform transition-transform duration-300 hover:scale-105"
+          >
             <div class="p-6 flex-1">
               <h3 class="font-semibold text-gray-800 mb-2">
                 QUẦN JOGGER PHỐI LINE BOOLAAB
@@ -520,12 +324,10 @@
           </div>
         </div>
 
-        <div class="flex justify-center items-center my-2 gap-[45px] mt-[47px]">
-          <img
-            src="../public/home/icons/nexttrangbig.svg"
-            alt=""
-            class="mb-[70px]"
-          />
+        <div
+          class="flex justify-center items-center my-2 gap-[7.5px] mt-[60px] mb-[70px]"
+        >
+          <NextPageBig />
         </div>
       </div>
     </div>
@@ -578,7 +380,7 @@
           Sản phẩm bán chạy nhất
         </h2>
         <div class="flex justify-center items-center mb-2 gap-[15px]">
-          <img src="../public/home/icons/nexttrangsmall.svg" alt="" />
+          <NextPageSmall />
         </div>
         <p class="text-sm text-gray-600">
           Tạo Nên Phong Cách Của Bạn - Sản Phẩm Đình Đám Trong Thời Trang!
@@ -586,99 +388,19 @@
       </div>
 
       <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-        <div class="bg-white overflow-hidden flex flex-col items-center pb-4">
-          <img
-            src="../public/home/product-selling1.png"
-            alt=""
-            class="w-[330px] h-[462px] object-cover"
-          />
-          <div class="mt-5 text-center px-4">
-            <h3 class="font-bold text-gray-800 mb-1">
-              QUẦN JEANS LOGO ESSENTIAL RELAX
-            </h3>
-            <div class="text-[#CF9163] mb-1">799.000 ₫</div>
-            <div class="flex justify-center items-center gap-1">
-              <img src="../public/home/icons/star.svg" alt="" />
-              <img src="../public/home/icons/star.svg" alt="" />
-              <img src="../public/home/icons/star.svg" alt="" />
-              <img src="../public/home/icons/star.svg" alt="" />
-              <img src="../public/home/icons/star.svg" alt="" />
-            </div>
-          </div>
-        </div>
-
-        <div class="bg-white overflow-hidden flex flex-col items-center pb-4">
-          <img
-            src="../public/home/product-selling2.png"
-            alt=""
-            class="w-[330px] h-[462px] object-cover"
-          />
-          <div class="mt-5 text-center px-4">
-            <h3 class="font-bold text-gray-800 mb-1">
-              ÁO KHOÁC GIÓ IN LOGO ESSENTIAL BOMBER
-            </h3>
-            <div class="text-[#CF9163] mb-1">1.499.000 đ</div>
-            <div class="flex justify-center items-center gap-1">
-              <img src="../public/home/icons/star.svg" alt="" />
-              <img src="../public/home/icons/star.svg" alt="" />
-              <img src="../public/home/icons/star.svg" alt="" />
-              <img src="../public/home/icons/star.svg" alt="" />
-              <img src="../public/home/icons/star.svg" alt="" />
-            </div>
-          </div>
-        </div>
-
-        <div class="bg-white overflow-hidden flex flex-col items-center pb-4">
-          <img
-            src="../public/home/product-selling3.png"
-            alt=""
-            class="w-[330px] h-[462px] object-cover"
-          />
-          <div class="mt-5 text-center px-4">
-            <h3 class="font-bold text-gray-800 mb-1">
-              ÁO NỈ MŨ UN ESSENTIAL FALL BOOEST03
-            </h3>
-            <div class="text-[#CF9163] mb-1">427.000 đ</div>
-            <div class="flex justify-center items-center gap-1">
-              <img src="../public/home/icons/star.svg" alt="" />
-              <img src="../public/home/icons/star.svg" alt="" />
-              <img src="../public/home/icons/star.svg" alt="" />
-              <img src="../public/home/icons/star.svg" alt="" />
-              <img src="../public/home/icons/star.svg" alt="" />
-            </div>
-          </div>
-        </div>
-
-        <div class="bg-white overflow-hidden flex flex-col items-center pb-4">
-          <img
-            src="../public/home/product-selling4.png"
-            alt=""
-            class="w-[330px] h-[462px] object-cover"
-          />
-          <div class="mt-5 text-center px-4">
-            <h3 class="font-bold text-gray-800 mb-1">
-              MŨ DAD CAP THÊU LOGO MARVEL GO VN
-            </h3>
-            <div class="text-[#CF9163] mb-1">304.000 đ</div>
-            <div class="flex justify-center items-center gap-1">
-              <img src="../public/home/icons/star.svg" alt="" />
-              <img src="../public/home/icons/star.svg" alt="" />
-              <img src="../public/home/icons/star.svg" alt="" />
-              <img src="../public/home/icons/star.svg" alt="" />
-              <img src="../public/home/icons/star.svg" alt="" />
-            </div>
-          </div>
-        </div>
+        <ProductList2 />
       </div>
 
-      <div class="flex justify-center items-center my-2 gap-[45px] mt-[47px]">
-        <img src="../public/home/icons/nexttrangbig.svg" alt="" />
+      <div
+        class="flex justify-center items-center my-2 gap-[7.5px] mt-[47px] mb-[21px]"
+      >
+        <NextPageBig />
       </div>
     </div>
 
     <!--  -->
     <div class="bg-off-white pt-[50px] text-center mx-auto">
-      <div class="container mx-auto px-4 w-viewport-80">
+      <div class="mx-auto px-4 w-viewport-80">
         <div
           class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 text-center text-white"
         >
@@ -686,7 +408,7 @@
             <img
               src="../public/home/icons/truck1.svg"
               alt="Truck icon"
-              class="w-14 h-14 mb-4"
+              class="w-14 h-14 mb-4 cursor-pointer"
             />
             <h3
               class="text-[16px] font-bold text-[#CF9163] mb-2 min-h-[30px] flex items-center justify-center"
@@ -703,7 +425,7 @@
             <img
               src="../public/home/icons/unlock1.svg"
               alt="Unlock icon"
-              class="w-14 h-14 mb-4"
+              class="w-14 h-14 mb-4 cursor-pointer"
             />
             <h3
               class="text-[16px] font-bold text-[#CF9163] mb-2 min-h-[30px] flex items-center justify-center"
@@ -720,7 +442,7 @@
             <img
               src="../public/home/icons/refresh-ccw1.svg"
               alt="Refresh icon"
-              class="w-14 h-14 mb-4"
+              class="w-14 h-14 mb-4 cursor-pointer"
             />
             <h3
               class="text-[16px] font-bold text-[#CF9163] mb-2 min-h-[30px] flex items-center justify-center"
@@ -736,7 +458,7 @@
             <img
               src="../public/home/icons/shopping-bag1.svg"
               alt="Shopping bag icon"
-              class="w-14 h-14 mb-4"
+              class="w-14 h-14 mb-4 cursor-pointer"
             />
             <h3
               class="text-[16px] font-bold text-[#CF9163] mb-2 min-h-[30px] flex items-center justify-center"
@@ -753,36 +475,36 @@
     </div>
 
     <!--  -->
-    <div class="flex w-full py-[30px] gap-[30px] overflow-x-auto justify-start">
+    <div class="flex w-full py-8 gap-x-[1.875rem] justify-center">
       <img
         src="../public/home/insta11.png"
         alt=""
-        class="w-[310px] h-[305px] flex-shrink-0"
+        class="h-[14rem] object-cover flex-grow"
       />
       <img
         src="../public/home/insta21.png"
         alt=""
-        class="w-[310px] h-[305px] flex-shrink-0"
+        class="h-[14rem] object-cover flex-grow"
       />
       <img
         src="../public/home/insta31.png"
         alt=""
-        class="w-[310px] h-[305px] flex-shrink-0"
+        class="h-[14rem] object-cover flex-grow"
       />
       <img
         src="../public/home/insta41.png"
         alt=""
-        class="w-[310px] h-[305px] flex-shrink-0"
+        class="h-[14rem] object-cover flex-grow"
       />
       <img
         src="../public/home/insta51.png"
         alt=""
-        class="w-[310px] h-[305px] flex-shrink-0"
+        class="h-[14rem] object-cover flex-grow"
       />
       <img
         src="../public/home/insta71.png"
         alt=""
-        class="w-[310px] h-[305px] flex-shrink-0"
+        class="h-[14rem] object-cover flex-grow"
       />
     </div>
 
@@ -956,4 +678,8 @@
 
 <script>
 import "@fortawesome/fontawesome-free/css/all.min.css";
+
+import ProductList1 from "~/components/ProductList1.vue";
+import ProductList2 from "~/components/ProductList2.vue";
+// import "../assets/app.scss";
 </script>
