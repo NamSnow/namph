@@ -429,7 +429,7 @@
               class="w-14 h-14 mb-4 cursor-pointer"
             />
             <h3
-              class="text-[1rem] font-bold text-[#CF9163] mb-2 min-h-[1.875rem] flex items-center justify-center"
+              class="text-[1rem] font-bold text-black mb-2 min-h-[1.875rem] flex items-center justify-center"
             >
               GIAO HÀNG TOÀN CẦU
             </h3>
@@ -446,7 +446,7 @@
               class="w-14 h-14 mb-4 cursor-pointer"
             />
             <h3
-              class="text-[1rem] font-bold text-[#CF9163] mb-2 min-h-[1.875rem] flex items-center justify-center"
+              class="text-[1rem] font-bold text-black mb-2 min-h-[1.875rem] flex items-center justify-center"
             >
               GIAO HÀNG ĐẢM BẢO
             </h3>
@@ -463,7 +463,7 @@
               class="w-14 h-14 mb-4 cursor-pointer"
             />
             <h3
-              class="text-[1rem] font-bold text-[#CF9163] mb-2 min-h-[1.875rem] flex items-center justify-center"
+              class="text-[1rem] font-bold text-black mb-2 min-h-[1.875rem] flex items-center justify-center"
             >
               ĐỔI/TRẢ HÀNG TRONG VÒNG 365 NGÀY
             </h3>
@@ -479,7 +479,7 @@
               class="w-14 h-14 mb-4 cursor-pointer"
             />
             <h3
-              class="text-[1rem] font-bold text-[#CF9163] mb-2 min-h-[1.875rem] flex items-center justify-center"
+              class="text-[1rem] font-bold text-black mb-2 min-h-[1.875rem] flex items-center justify-center"
             >
               MUA HÀNG MỘT CÁCH TỰ TIN
             </h3>
@@ -528,19 +528,17 @@
 
     <!--  -->
     <div
-      class="flex flex-col items-center justify-center py-16 px-4 bg-[#F2F2F2] text-center"
+      class="flex flex-col items-center justify-center py-16 px-4 bg-off-white text-center"
     >
       <div
         class="text-brown-accent text-base md:text-lg font-bold uppercase tracking-widest mb-2"
       >
         Thư thông báo
       </div>
-      <div
-        class="text-[#524B46] text-3xl md:text-5xl font-bold mb-4 leading-tight"
-      >
+      <div class="text-3xl md:text-5xl font-bold mb-4 leading-tight">
         Nhận giảm giá 30%
       </div>
-      <div class="text-[#888888] text-sm md:text-base mb-8 max-w-md">
+      <div class="text-light-gray text-sm md:text-base mb-8 max-w-md">
         30% off trên toàn bộ đơn hàng của bạn khi nhập mã khuyến mãi.
       </div>
       <div
@@ -549,10 +547,10 @@
         <input
           type="email"
           placeholder="Nhập Email của bạn..."
-          class="w-full md:flex-grow py-[0.625rem] pl-[1.25rem] border border-[#E0E0E0] focus:outline-none focus:ring-2 focus:ring-brown-accent mb-4 md:mb-0 text-[#524B46] placeholder-[#AAAAAA]"
+          class="w-full md:flex-grow py-[0.625rem] pl-[1.25rem] border focus:outline-none focus:ring-2 focus:ring-brown-accent mb-4 md:mb-0 text-light-gray placeholder-light-gray"
         />
         <button
-          class="w-full md:w-auto px-8 py-[0.625rem] bg-brown-accent text-white font-bold hover:bg-[#A37B5C] transition-colors duration-300 whitespace-nowrap"
+          class="w-full md:w-auto px-8 py-[0.625rem] bg-brown-accent text-white font-bold hover:bg-brown-accent transition-colors duration-300 whitespace-nowrap"
         >
           Đăng ký
         </button>
@@ -613,7 +611,7 @@
           </div>
           <div class="flex space-x-[0.625rem] gap-[0.625rem]">
             <div
-              class="w-[2.375rem] h-[2.375rem] transform rotate-45 bg-[#212121] flex justify-center items-center shadow-md hover:bg-brown-accent transition-colors duration-300"
+              class="w-[2.375rem] h-[2.375rem] transform rotate-45 bg-black flex justify-center items-center shadow-md hover:bg-brown-accent transition-colors duration-300"
             >
               <img
                 src="../../home/icons/facebook.svg"
@@ -622,7 +620,7 @@
               />
             </div>
             <div
-              class="w-[2.375rem] h-[2.375rem] transform rotate-45 bg-[#212121] flex justify-center items-center shadow-md hover:bg-brown-accent transition-colors duration-300"
+              class="w-[2.375rem] h-[2.375rem] transform rotate-45 bg-black flex justify-center items-center shadow-md hover:bg-brown-accent transition-colors duration-300"
             >
               <img
                 src="../../home/icons/insta.svg"
@@ -631,7 +629,7 @@
               />
             </div>
             <div
-              class="w-[2.375rem] h-[2.375rem] transform rotate-45 bg-[#212121] flex justify-center items-center shadow-md hover:bg-brown-accent transition-colors duration-300"
+              class="w-[2.375rem] h-[2.375rem] transform rotate-45 bg-black flex justify-center items-center shadow-md hover:bg-brown-accent transition-colors duration-300"
             >
               <img
                 src="../../home/icons/twitter.svg"
@@ -640,7 +638,7 @@
               />
             </div>
             <div
-              class="w-[2.375rem] h-[2.375rem] transform rotate-45 bg-[#212121] flex justify-center items-center shadow-md hover:bg-brown-accent transition-colors duration-300"
+              class="w-[2.375rem] h-[2.375rem] transform rotate-45 bg-black flex justify-center items-center shadow-md hover:bg-brown-accent transition-colors duration-300"
             >
               <img
                 src="../../home/icons/p.svg"
